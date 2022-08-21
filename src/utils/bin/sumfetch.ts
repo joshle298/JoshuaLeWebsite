@@ -1,6 +1,6 @@
 import config from '../../../config.json';
 
-const sumfetch = async (args: string[]): Promise<string> => {
+const sumfetch = async (): Promise<string> => {
   return `                     
 
         ░░░░        ░░░░
