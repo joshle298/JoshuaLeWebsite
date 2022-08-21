@@ -33,7 +33,10 @@ More about me:
 };
 
 export const resume = async (args: string[]): Promise<string> => {
-  window.open(`./JoshuaLeResume`);
+  window.open(
+    'https://docs.google.com/document/d/e/2PACX-1vRhvy3W4OV5TvPaj3a3XAC_DxfyMpw_9J-dhUc0OIgM821c1feuNg8hJAEVhYWH117EO1HYSXpMUjqh/pub',
+    '_blank',
+  );
   return 'Opening resume...';
 };
 

@@ -7,7 +7,7 @@ const sumfetch = async (args: string[]): Promise<string> => {
       ░░    ░░    ░░    ░░              -----------
         ░░░░██░░██░░██░░                爵 ABOUT
       ░░░░░░▒▒░░▒▒░░▒▒░░░░               ${config.name}
-      ▓▓░░░░▓▓░░░░▓▓░░░░▓▓               <a href="JoshuaLeResume.pdf" target="_blank">resume</a>
+      ▓▓░░░░▓▓░░░░▓▓░░░░▓▓               <u><a href="./JoshuaLeResume.pdf" target="_blank">resume</a></u>
       ▒▒░░░░██░░░░██░░░░▒▒ 
       ████    ▒▒▒▒    ████              -----------
       ░░                ░░               CONTACT 
