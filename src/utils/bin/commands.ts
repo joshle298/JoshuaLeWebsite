@@ -18,25 +18,12 @@ export const help = async (args: string[]): Promise<string> => {
 \n${c}\n
 [tab]: trigger completion.
 [ctrl+l]/clear: clear terminal.\n
-Type 'sumfetch' to display summary.
+Type 'about' to learn about me.
 `;
 };
 
-// About
-export const about = async (args: string[]): Promise<string> => {
-  return `Hi, I am ${config.name}. 
-Welcome to my website!
-More about me:
-'sumfetch' - short summary.
-'resume' - my latest resume.
-'readme' - my github readme.`;
-};
-
 export const resume = async (args: string[]): Promise<string> => {
-  window.open(
-    'https://docs.google.com/document/d/e/2PACX-1vRhvy3W4OV5TvPaj3a3XAC_DxfyMpw_9J-dhUc0OIgM821c1feuNg8hJAEVhYWH117EO1HYSXpMUjqh/pub',
-    '_blank',
-  );
+  window.open(`${config.resume_url}`);
   return 'Opening resume...';
 };
 
@@ -64,11 +51,6 @@ export const google = async (args: string[]): Promise<string> => {
   return `Searching google for ${args.join(' ')}...`;
 };
 
-export const duckduckgo = async (args: string[]): Promise<string> => {
-  window.open(`https://duckduckgo.com/?q=${args.join(' ')}`);
-  return `Searching duckduckgo for ${args.join(' ')}...`;
-};
-
 export const bing = async (args: string[]): Promise<string> => {
   window.open(`https://bing.com/search?q=${args.join(' ')}`);
   return `Wow, really? You are using bing for ${args.join(' ')}?`;
@@ -89,41 +71,16 @@ export const whoami = async (args: string[]): Promise<string> => {
 };
 
 export const ls = async (args: string[]): Promise<string> => {
-  return `a
-bunch
-of
-fake
-directories`;
-};
-
-export const cd = async (args: string[]): Promise<string> => {
-  return `unfortunately, i cannot afford more directories.
-if you want to help, you can type 'donate'.`;
+  return `Nothing here, except my thoughts.`;
 };
 
 export const date = async (args: string[]): Promise<string> => {
   return new Date().toString();
 };
 
-export const vi = async (args: string[]): Promise<string> => {
-  return `woah, you still use 'vi'? just try 'vim'.`;
-};
-
-export const vim = async (args: string[]): Promise<string> => {
-  return `'vim' is so outdated. how about 'nvim'?`;
-};
-
-export const nvim = async (args: string[]): Promise<string> => {
-  return `'nvim'? too fancy. why not 'emacs'?`;
-};
-
-export const emacs = async (args?: string[]): Promise<string> => {
-  return `you know what? just use vscode.`;
-};
-
-export const sudo = async (args?: string[]): Promise<string> => {
+export const somethingCool = async (args?: string[]): Promise<string> => {
   window.open('https://www.youtube.com/watch?v=dQw4w9WgXcQ', '_blank'); // ...I'm sorry
-  return `Permission denied: with little power comes... no responsibility? `;
+  return `I told you it would be something cool... `;
 };
 
 // Banner
@@ -149,8 +106,8 @@ export const banner = (args?: string[]): string => {
    █████     █████░███ █████   ░░████████  ░░██████  ██████  ████ █████ ██
   ░░░░░     ░░░░░ ░░░ ░░░░░     ░░░░░░░░    ░░░░░░  ░░░░░░  ░░░░ ░░░░░ ░░ 
                                                                           
-                                                                          
+
+Type 'about' to learn about me.
 Type 'help' to see the list of available commands.
-Type 'sumfetch' to display summary.
 `;
 };

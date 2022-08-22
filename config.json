@@ -1,33 +1,33 @@
 {
   "title": "Joshua Le",
   "name": "Joshua Le",
-  "ascii": "liveterm",
+  "ascii": "",
   "social": {
-    "github": "github",
-    "linkedin": "linkedin"
+    "github": "joshle298",
+    "linkedin": "joshua-le-6850051a9"
   },
   "email": "joshua.le@nyu.edu",
-  "ps1_hostname": "joshuaLe",
+  "ps1_hostname": "joshuale",
   "ps1_username": "visitor",
-  "resume_url": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Resume.pdf",
+  "resume_url": "/Users/baku/Documents/GitHub/PersonalWebsite/JoshuaLeResume.pdf",
   "colors": {
     "light": {
-      "background": "#FBF1C9",
-      "foreground": "#3C3836",
-      "yellow": "#D79921",
-      "green": "#98971A",
-      "gray": "#7C6F64",
-      "blue": "#458588",
-      "red": "#CA2124"
+      "background": "#FDF6E3",
+      "foreground": "#586E75",
+      "yellow": "#B58900",
+      "green": "#859900",
+      "gray": "#6C71C4",
+      "blue": "#268BD2",
+      "red": "#DC322F"
     },
     "dark": {
-      "background": "#2E3440",
-      "foreground": "#E5E9F0",
-      "yellow": "#5E81AC",
-      "green": "#A3BE8C",
-      "gray": "#88C0D0",
-      "blue": "#EBCB8B",
-      "red": "#BF616A"
+      "background": "#002B36",
+      "foreground": "#93A1A1",
+      "yellow": "#B58900",
+      "green": "#859900",
+      "gray": "#6C71C4",
+      "blue": "#268BD2",
+      "red": "#DC322F"
     }
   }
 }
