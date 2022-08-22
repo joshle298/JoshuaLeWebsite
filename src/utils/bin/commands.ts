@@ -30,7 +30,7 @@ export const resume = async (args: string[]): Promise<string> => {
 // Contact
 export const email = async (args: string[]): Promise<string> => {
   window.open(`mailto:${config.email}`);
-  return `Opening mailto:${config.email}...`;
+  return `Drafting an email to ${config.email}`;
 };
 
 export const github = async (args: string[]): Promise<string> => {
@@ -52,8 +52,7 @@ export const google = async (args: string[]): Promise<string> => {
 };
 
 export const bing = async (args: string[]): Promise<string> => {
-  window.open(`https://bing.com/search?q=${args.join(' ')}`);
-  return `Wow, really? You are using bing for ${args.join(' ')}?`;
+  return `Wow, really? No one uses Bing, I'll stop you right here.`;
 };
 
 export const reddit = async (args: string[]): Promise<string> => {
@@ -66,9 +65,9 @@ export const echo = async (args: string[]): Promise<string> => {
   return args.join(' ');
 };
 
-export const whoami = async (args: string[]): Promise<string> => {
-  return `${config.ps1_username}`;
-};
+// export const whoami = async (args: string[]): Promise<string> => {
+//   return `${config.ps1_username}`;
+// };
 
 export const ls = async (args: string[]): Promise<string> => {
   return `Nothing here, except my thoughts.`;
@@ -108,6 +107,6 @@ export const banner = (args?: string[]): string => {
                                                                           
 
 Type 'about' to learn about me.
-Type 'help' to see the list of available commands.
+Type 'help' to see the rest of the available commands (easter eggs are present).
 `;
 };
