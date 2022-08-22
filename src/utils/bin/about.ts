@@ -5,8 +5,8 @@ const about = async (): Promise<string> => {
 
     ░░░░        ░░░░                
   ░░    ░░    ░░    ░░ 
-    ░░░░██░░██░░██░░     
-  ░░░░░░▒▒░░▒▒░░▒▒░░░░
+    ░░██░░████░░██░░     
+  ░░░░▒▒░░▒▒▒▒░░▒▒░░░░
   ▓▓░░░░▓▓░░░░▓▓░░░░▓▓  
   ▒▒░░░░██░░░░██░░░░▒▒
   ████    ▒▒▒▒    ████ 
@@ -18,7 +18,7 @@ const about = async (): Promise<string> => {
 -----------
  ABOUT ME
  ${config.name}
- <u><a href="https://github.com/joshle298/PersonalWebsite/blob/main/JoshuaLeResume.pdf" target="_blank">Resume</a></u>        
+ <u><a href="https://github.com/joshle298/PersonalWebsite/blob/6b0ace1ba117bbeb7bb3cc2ecbd624d9dcd2f7de/JoshuaLeResume.pdf" target="_blank">Resume</a></u>        
 爵 I’m a second-year undergraduate (with a junior standing, Class of '24)
 at NYU studying Computer Science with a double minor in Mathematics and
 Business Studies. I am currently an iOS Developer and Campus Leader 

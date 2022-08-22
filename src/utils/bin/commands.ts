@@ -14,10 +14,9 @@ export const help = async (args: string[]): Promise<string> => {
       c += Object.keys(bin).sort()[i - 1] + ' ';
     }
   }
-  return `Welcome! Here are all the available commands:
+  return `Hey! Here are all the available commands:
 \n${c}\n
-[tab]: trigger completion.
-[ctrl+l]/clear: clear terminal.\n
+[ctrl+l] or clear: to clear terminal.\n
 Type 'about' to learn about me.
 `;
 };
@@ -106,7 +105,8 @@ export const banner = (args?: string[]): string => {
   ░░░░░     ░░░░░ ░░░ ░░░░░     ░░░░░░░░    ░░░░░░  ░░░░░░  ░░░░ ░░░░░ ░░ 
                                                                           
 
+Type 'help' to see the available list of commands (easter eggs are present).
 Type 'about' to learn about me.
-Type 'help' to see the rest of the available commands (easter eggs are present).
+Side note: Try both dark and light mode!
 `;
 };

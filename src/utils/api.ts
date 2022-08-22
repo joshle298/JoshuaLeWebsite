@@ -23,3 +23,12 @@ export const getQuote = async () => {
     quote: `“${data.content}” — ${data.author}`,
   };
 };
+
+// export const getJoke = async () => {
+//   const { data } = await axios.get(
+//     'https://official-joke-api.appspot.com/random_joke',
+//   );
+//   return {
+//     joke: data
+//   };
+// };
