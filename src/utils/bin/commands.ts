@@ -76,7 +76,7 @@ export const date = async (args: string[]): Promise<string> => {
   return new Date().toString();
 };
 
-export const somethingCool = async (args?: string[]): Promise<string> => {
+export const somethingcool = async (args?: string[]): Promise<string> => {
   window.open('https://www.youtube.com/watch?v=dQw4w9WgXcQ', '_blank'); // ...I'm sorry
   return `I told you it would be something cool... `;
 };
