@@ -101,8 +101,8 @@ export const banner = (args?: string[]): string => {
   ░░░░░     ░░░░░ ░░░ ░░░░░     ░░░░░░░░    ░░░░░░  ░░░░░░  ░░░░ ░░░░░ ░░ 
                                                                           
 
-Type 'help' to see the available list of commands (easter eggs are present).
+Type 'help' to see the available list of commands.
 Type 'about' to learn about me.
-Side note: Try both dark and light mode!
+Try both dark and light mode!
 `;
 };
