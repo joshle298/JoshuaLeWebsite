@@ -1,5 +1,5 @@
 This is my personal website!
 
-You can check it out live at joshuale.com
+You can check it out live at [joshuale.com](https://www.joshuale.com/)
 
-<img width="547" alt="Screen Shot 2022-08-31 at 1 12 51 PM" src="https://user-images.githubusercontent.com/59464508/187739222-73d3fb83-2c62-48c8-9346-4e4ab8f35817.png">
+<img width="615" alt="Screenshot 2023-07-22 at 11 51 42 AM" src="https://github.com/joshle298/PersonalWebsite/assets/59464508/e54496cf-b0dd-477d-8379-581465911e96">
