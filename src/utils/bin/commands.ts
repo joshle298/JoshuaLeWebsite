@@ -10,7 +10,7 @@ export const help = async (args: string[]): Promise<string> => {
   for (let i = 1; i <= Object.keys(bin).sort().length; i++) {
     c += Object.keys(bin).sort()[i - 1] + '\n';
   }
-  return `Hey! Here are all the available commands:
+  return `Here are all the available commands:
 \n${c}
 [ctrl+l] or clear: to clear terminal.
 Type 'about' to learn about me.
@@ -103,6 +103,5 @@ export const banner = (args?: string[]): string => {
 
 Type 'help' to see the available list of commands.
 Type 'about' to learn about me.
-Try both dark and light mode!
 `;
 };
